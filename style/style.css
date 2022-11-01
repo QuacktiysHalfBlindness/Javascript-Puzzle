@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.body {
+    height: 100vh;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.CardsContainer {
+    height: 100vh;
+    background: slategray;
+    /*Bei standard, setzt sie die Kinder von einen div in ihre eigenen Reihen*/
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+}
+
+.el1 {
+    background: #4F5978;
+    grid-column: 2/ 2 span;
+    grid-row: 2 / span 4;
+}
+
+.el2 {
+    background: #4F5978;
+    grid-column: 2/ 2 span;
+    grid-row: 8 / span 4;
+}
+
+.el3 {
+    background: #4F5978;
+    grid-column: 6/ 2 span;
+    grid-row: 2 / span 4;
+}
+
+.el4 {
+    background: #4F5978;
+    grid-column: 6/ 2 span;
+    grid-row: 8 / span 4;
+}
+
+.el5 {
+    background: #4F5978;
+    grid-column: 10/ 2 span;
+    grid-row: 8 / span 4;
+}
+
+.el6 {
+    background: #4F5978;
+    grid-column: 10/ 2 span;
+    grid-row: 2 / span 4;
+}
